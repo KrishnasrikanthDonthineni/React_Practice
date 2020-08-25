@@ -5,8 +5,9 @@ import './App.css';
 import  User  from "./User/User";
 import FormValidations from "./FormValidation/FormValidation";
 import Alphabet from "./ArrowFunctionPrac/PassingParams";
-import Refs from "./Refs/Refs"
-
+import Refs from "./Refs/Refs";
+import RestAPI from "./RestAPI/RestAPI";
+ 
 class App extends React.Component{
 
   state = {
@@ -166,7 +167,7 @@ class App extends React.Component{
        <div class="col-sm-10">
        <FormValidations
       />
-     
+     <RestAPI/>
 
       
        </div>
